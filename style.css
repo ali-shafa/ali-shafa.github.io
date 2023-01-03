@@ -18,11 +18,9 @@ div{
     background-image: linear-gradient(rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));
 }
 
-
-while mouseover -> {
-   rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792)
+div:hover{
+    background-image: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
 }
-
 
 music player part ->{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
