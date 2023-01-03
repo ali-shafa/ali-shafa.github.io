@@ -22,7 +22,7 @@ div:hover{
     background-image: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
 }
 
-#musicplayer{
+p{
     color: #ffffff;
     padding-top: 7px;
     text-shadow: 1px 1px 20px black;
@@ -30,13 +30,18 @@ div:hover{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-song and the song writers -> {
+#songname{
+    color: #ffffff;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
-song writers -> {
+#songwriters{
     color: #666666;
+    margin: auto;
+    padding-top: 7px;
+    text-shadow: 1px 1px 20px black;
+    transition: .5s;
+    list-style: none;
     font-size: smaller;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -69,4 +74,9 @@ img{
 }
 img:hover{
     box-shadow: 1px 1px 7px black;
+}
+#songinfo{
+    list-style: none;
+    display: flex;
+    padding: 0px;
 }
