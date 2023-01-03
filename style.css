@@ -60,7 +60,13 @@ song writers while mouseover{
 .play while mouseover -> {
     border-color: #bebebe;
 }
+
 img{
     width: 190px;
     margin: 7px 0px 0px 40px;
     border-radius: 5%;
+    transition: .3s;
+}
+img:hover{
+    box-shadow: 1px 1px 7px black;
+}
