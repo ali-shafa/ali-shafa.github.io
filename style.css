@@ -22,7 +22,11 @@ div:hover{
     background-image: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
 }
 
-music player part ->{
+#musicplayer{
+    color: #ffffff;
+    padding-top: 7px;
+    text-shadow: 1px 1px 20px black;
+    text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
