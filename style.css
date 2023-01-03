@@ -51,15 +51,17 @@ p , datalist{
     cursor: pointer;
 }
 
-.play,
-.back,
-.for{
+button{
     border-color: #ffffff;
     width: 45px;
     height: 45px;
     border-radius: 50%;
+    margin: 9px;
 }
-
+ ul{
+    list-style: none;
+    display: flex;
+ }
 
 .back
 .for
