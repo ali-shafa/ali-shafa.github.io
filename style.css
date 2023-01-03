@@ -22,7 +22,7 @@ div:hover{
     background-image: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
 }
 
-p{
+p , datalist{
     color: #ffffff;
     padding-top: 7px;
     text-shadow: 1px 1px 20px black;
@@ -80,4 +80,16 @@ img:hover{
     list-style: none;
     display: flex;
     padding: 0px;
+}
+
+datalist{
+    display: flex;
+    justify-content: space-between;
+    writing-mode: horizontal-tb;
+    width: 210px;
+    margin-left: 30px;
+}
+input{
+    width: 210px;
+    margin-left: 30px;
 }
