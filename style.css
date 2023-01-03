@@ -57,15 +57,14 @@ button{
     height: 45px;
     border-radius: 50%;
     margin: 9px;
+    transition: .3s;
 }
- ul{
+ul{
     list-style: none;
     display: flex;
- }
+}
 
-.back
-.for
-.play while mouseover -> {
+button:hover{
     border-color: #bebebe;
 }
 
