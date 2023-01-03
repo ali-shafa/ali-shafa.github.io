@@ -60,3 +60,7 @@ song writers while mouseover{
 .play while mouseover -> {
     border-color: #bebebe;
 }
+img{
+    width: 190px;
+    margin: 7px 0px 0px 40px;
+    border-radius: 5%;
